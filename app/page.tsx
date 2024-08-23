@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="">
-      <h1>Main App</h1>
+      <h1>Login</h1>
     </main>
   );
 }
