@@ -9,7 +9,7 @@ import { GrAnalytics } from "react-icons/gr";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { PiCaretDown, PiUsersThreeLight } from "react-icons/pi";
 import { RxDashboard } from "react-icons/rx";
-import ClassItem from "./ClassItem";
+import ClassItem from "../dashboard/ClassItem";
 
 const sidebarNavItems: SidebarNavItem[] = [
   {
