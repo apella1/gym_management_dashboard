@@ -6,12 +6,12 @@ import UserProfile from "@/components/dashboard/UserProfile";
 
 export default function Dashboard() {
   return (
-    <main className="p-8 flex space-x-10">
-      <section className="basis-2/3 flex flex-col space-y-4">
+    <main className="flex space-x-10">
+      <section className="basis-2/3 flex flex-col space-y-4 p-8">
         <DashboardHeader />
         <Timeline />
       </section>
-      <section className="basis-1/3 flex flex-col space-y-4">
+      <section className="basis-1/3 flex flex-col space-y-4 bg-gray-100 p-8">
         <UserProfile />
         <ActivitiesCalendar />
         <Challenges />
