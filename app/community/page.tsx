@@ -1,3 +1,3 @@
 export default function Community() {
-  return <div>page</div>;
+  return <section className="p-8">Community</section>;
 }

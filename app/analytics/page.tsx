@@ -1,3 +1,3 @@
 export default function Analytics() {
-  return <div>page</div>;
+  return <section className="p-8">Analytics</section>;
 }
