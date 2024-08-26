@@ -9,12 +9,11 @@ export default function Dashboard() {
     <main className="flex space-x-10">
       <section className="basis-2/3 flex flex-col space-y-4 p-8">
         <DashboardHeader />
-        <Timeline />
+        <Challenges />
       </section>
       <section className="basis-1/3 flex flex-col space-y-4 bg-gray-100 p-8">
         <UserProfile />
         <ActivitiesCalendar />
-        <Challenges />
       </section>
     </main>
   );

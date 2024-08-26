@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation";
 import { FaFingerprint, FaSlideshare } from "react-icons/fa";
 import { FaGear } from "react-icons/fa6";
 import { GrAnalytics } from "react-icons/gr";
-import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { PiCaretDown, PiUsersThreeLight } from "react-icons/pi";
 import { RxDashboard } from "react-icons/rx";
 import ClassItem from "../dashboard/ClassItem";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const sidebarNavItems: SidebarNavItem[] = [
   {
@@ -95,14 +95,7 @@ export default function SideBar() {
               <p className="text-sm">{settingNavItem.title}</p>
             </div>
           </Link>
-          <div className="flex items-center space-x-6 pl-6">
-            <button>
-              <IoSunnyOutline className="text-xl" />
-            </button>
-            <button>
-              <IoMoonOutline className="text-xl" />
-            </button>
-          </div>
+          <ThemeSwitcher />
         </section>
       </section>
     </section>
