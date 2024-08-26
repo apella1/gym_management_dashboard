@@ -18,6 +18,14 @@ const sidebarNavItems: SidebarNavItem[] = [
     icon: <RxDashboard />,
   },
   {
+    title: "Members",
+    route: "/members",
+    icon: <PiUsersThreeLight />,
+  },
+];
+
+const _futureNavItems: SidebarNavItem[] = [
+  {
     title: "Community",
     route: "/community",
     icon: <FaSlideshare />,
@@ -26,11 +34,6 @@ const sidebarNavItems: SidebarNavItem[] = [
     title: "Analytics",
     route: "/analytics",
     icon: <GrAnalytics />,
-  },
-  {
-    title: "Members",
-    route: "/members",
-    icon: <PiUsersThreeLight />,
   },
 ];
 
