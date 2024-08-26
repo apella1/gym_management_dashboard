@@ -10,7 +10,7 @@ export default function Members() {
         <UsersSearch />
       </section>
       <section className="px-8 flex space-x-8">
-        <div className="basis-2/3 min-w-[65%]">
+        <div className="basis-2/3 min-w-[70%]">
           <MembersList />
         </div>
         <div className="basis-1/3">
